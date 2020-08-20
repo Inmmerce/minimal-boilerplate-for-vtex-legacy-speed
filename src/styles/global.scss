@@ -1,0 +1,56 @@
+@import "global";
+@import "slick";
+@import "notification";
+
+@import "header";
+
+body.home,
+body.category,
+body.department,
+body.search,
+body.brand,
+body.product {
+  @import "shelf";
+}
+
+body.home {
+  @import "home";
+}
+
+body.department {
+  @import "department";
+}
+
+body.category {
+  @import "category";
+}
+
+body.search {
+  @import "category";
+}
+
+body.product {
+  @import "product";
+}
+
+body.copservir-myvtex-com {
+  @import "checkoutLRV";
+}
+
+body.body.copservir-vtexlocal-com-br {
+  @import "checkoutLRV";
+}
+
+body.lrv-error500 {
+  @import "500-lrv";
+}
+body.lrv-eror404 {
+  @import "404-lrv";
+}
+
+body.copservir-myvtex-com.body-checkout-confirmation,
+body.copservir-vtexlocal-com-br.body-checkout-confirmation {
+  /* AQUI VA LA INFORMACION AL CONFIRMAR LA REALIZACION DE UN PEDIDO */
+}
+
+@import "footer";
